@@ -1,0 +1,45 @@
+{
+  "name": "generator-javascript-kata",
+  "version": "0.0.0",
+  "description": "A generator for javascript TDD-katas",
+  "keywords": [
+    "yeoman-generator",
+    "javascrip",
+    "tdd",
+    "kata",
+    "karma"
+  ],
+  "homepage": "https://github.com/francho/generator-javascript-kata",
+  "bugs": "https://github.com/francho/generator-javascript-kata/issues",
+  "author": {
+    "name": "Francho",
+    "email": "",
+    "url": "https://github.com/francho"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/francho/generator-javascript-kata.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

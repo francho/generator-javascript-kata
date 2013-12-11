@@ -1,0 +1,9 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+	"karma": ">=0.10.8",
+	"phantomjs": ">=1.9.2-5"
+  }
+}
