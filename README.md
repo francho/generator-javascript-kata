@@ -1,6 +1,6 @@
 # generator-javascript-kata [![Build Status](https://secure.travis-ci.org/francho/generator-javascript-kata.png?branch=master)](https://travis-ci.org/francho/generator-javascript-kata)
 
-A [Yeoman](http://yeoman.io) generator for javascript katas.
+A [Yeoman](http://yeoman.io) generator for TDD javascript katas.
 
 ## Usage
 
@@ -17,6 +17,7 @@ mkdir my-new-project && cd $_
 Run `yo angular`
 ```
 yo javascript-kata 
+```
 
 Run `karma start` for start tests runner
 
