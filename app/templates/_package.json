@@ -4,7 +4,6 @@
   "dependencies": {},
   "devDependencies": {
 	"karma": ">=0.10.8",
-	"karma-commonjs": ">=0.0.3",
 	"karma-commonjs": ">=0.0.2",
     	"karma-phantomjs-launcher": ">=0.1.0",
 	"phantomjs": ">=1.9.2-5"
