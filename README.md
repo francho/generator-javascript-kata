@@ -1,6 +1,6 @@
 # generator-javascript-kata [![Build Status](https://secure.travis-ci.org/francho/generator-javascript-kata.png?branch=master)](https://travis-ci.org/francho/generator-javascript-kata)
 
-A [Yeoman](http://yeoman.io) generator for javascript katas.
+A [Yeoman](http://yeoman.io) generator for TDD javascript katas.
 
 ## Usage
 
