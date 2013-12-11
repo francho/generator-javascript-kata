@@ -23,7 +23,11 @@ describe('javascript-kata generator', function () {
         var expected = [
             // add files you expect to exist here.
             '.jshintrc',
-            '.editorconfig'
+            '.editorconfig',
+	    '.bowerrc',
+	    'bower.json',
+	    'karma.conf.js',
+	    'package.json'
         ];
 
         helpers.mockPrompt(this.app, {

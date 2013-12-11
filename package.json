@@ -1,6 +1,6 @@
 {
   "name": "generator-javascript-kata",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A generator for javascript TDD-katas",
   "keywords": [
     "yeoman-generator",

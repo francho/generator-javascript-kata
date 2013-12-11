@@ -1,5 +1,6 @@
 {
   "name": "package",
+  "directory": "bower_components",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
