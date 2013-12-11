@@ -19,7 +19,7 @@ Run `yo angular`
 yo javascript-kata 
 ```
 
-Run `karma start` for start tests runner
+Run `./node_modules/.bin/karma start` for start tests runner
 
 You must put your code into ./app/src folder and your tests under ./test/spec folder
 

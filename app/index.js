@@ -25,6 +25,9 @@ JavascriptKataGenerator.prototype.app = function app() {
   this.copy('_package.json', 'package.json');
   this.copy('_bower.json', 'bower.json');
   this.copy('_karma.conf.js', 'karma.conf.js');
+
+  this.copy('HelloWorld.js', 'app/src/HelloWorld.js');
+  this.copy('HelloWorldTest.js', 'test/spec/HelloWorldTest.js');
 };
 
 JavascriptKataGenerator.prototype.projectfiles = function projectfiles() {

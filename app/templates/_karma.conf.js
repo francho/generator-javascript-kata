@@ -20,6 +20,8 @@ module.exports = function (config) {
 			frameworks: ['jasmine'],
 
 			files: [
+				'components/chai/chai.js',
+				'components/underscore/underscore.js',
 				'src/**/*.js',
 				'../test/mock/**/*.js',
 				'../test/spec/**/*.js',
