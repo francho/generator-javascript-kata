@@ -16,25 +16,6 @@ var JavascriptKataGenerator = module.exports = function JavascriptKataGenerator(
 
 util.inherits(JavascriptKataGenerator, yeoman.generators.Base);
 
-JavascriptKataGenerator.prototype.askFor = function askFor() {
-  var cb = this.async();
-
-  // have Yeoman greet the user.
-  console.log(this.yeoman);
-
-  var prompts = [{
-    type: 'confirm',
-    name: 'someOption',
-    message: 'Would you like to enable this option?',
-    default: true
-  }];
-
-  this.prompt(prompts, function (props) {
-    this.someOption = props.someOption;
-
-    cb();
-  }.bind(this));
-};
 
 JavascriptKataGenerator.prototype.app = function app() {
   this.mkdir('app');
