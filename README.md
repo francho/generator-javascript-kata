@@ -17,6 +17,7 @@ mkdir my-new-project && cd $_
 Run `yo angular`
 ```
 yo javascript-kata 
+```
 
 Run `karma start` for start tests runner
 
