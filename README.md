@@ -1,10 +1,10 @@
 # generator-javascript-kata [![Build Status](https://secure.travis-ci.org/francho/generator-javascript-kata.png?branch=master)](https://travis-ci.org/francho/generator-javascript-kata)
 
-A [Yeoman](http://yeoman.io) generator for TDD javascript katas.
+A \([Yeoman](http://yeoman.io)\) scaffold generator for TDD javascript katas.
 
 ## Usage
 
-Install `generator-javascript-kata`:
+Install `generator-javascript-kata` \(if it isn't installed yet\):
 ```
 npm install -g generator-javascript-kata
 ```
@@ -14,16 +14,21 @@ Make a new directory, and `cd` into it:
 mkdir my-new-project && cd $_
 ```
 
-Run `yo angular`
+Generate the scaffold:
 ```
-yo javascript-kata 
+yo javascript-kata
 ```
 
-Run `./node_modules/.bin/karma start` for start tests runner
+Start the tests runner (when you write new code, it rerun the tests automatically):
+```
+./node_modules/.bin/karma start
+```
 
-You must put your code into ./app/src folder and your tests under ./test/spec folder
+Now it's your turn... it's time to code :)
 
-## Libraries included by default
+Note: You must put your code into `./app/src` folder and your tests under `./test/spec` folder
+
+## Libraries and tools included by default
 
 * [chaijs](http://chaijs.com/)
 * [underscore](http://underscorejs.org/)
